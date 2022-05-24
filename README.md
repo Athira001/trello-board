@@ -7,6 +7,16 @@
 - User should be able to move cards between columns.
 - Support tests
 
+Desktop view
+<img width="1413" alt="image" src="https://user-images.githubusercontent.com/37729206/170110994-4939c7f3-feb9-4964-bb10-17f3bad1a22e.png">
+
+Update or edit card(note)
+<img width="1402" alt="image" src="https://user-images.githubusercontent.com/37729206/170111144-93375018-d24a-42fb-8cba-5be0c404b9ac.png">
+
+Move cards between columns
+<img width="367" alt="image" src="https://user-images.githubusercontent.com/37729206/170111377-4f29ff67-6a9d-40ba-8f8f-70df2083fbc9.png">
+
+
 ### Following Design System
  we use the idea of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) as a part of building a web page.
 
