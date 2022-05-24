@@ -1,0 +1,60 @@
+.card-container {
+  width: 300px;
+  border-radius: 4px;
+  background-color: #010409;
+  padding: 12px;
+  font-size: 16px;
+  color: #ccc;
+  margin-right: 24px;
+  position: relative;
+  flex-shrink: 0;
+  height: 100Vh;
+  overflow: scroll;
+}
+
+.delete-card {
+  padding:  0 !important;
+  cursor: pointer;
+  top: 12px;
+  right: 12px;
+  font-size: 16px;
+  color:  #f7345e !important;
+}
+
+
+.add-card {
+  padding:0  16px 0 0 !important;
+  font-size: 24px;
+  color:  #f7345e !important;
+  cursor: pointer;
+
+}
+
+.card-config {
+  display: inline-flex;;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 12px;
+
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+
+.config-button {
+  color: #f7345e;
+  border: 1px solid #f7345e !important;
+  padding: 8px 32px !important;
+  cursor: pointer;
+  flex-basis: 48%;
+}
+.config-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

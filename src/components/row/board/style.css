@@ -1,0 +1,42 @@
+.board-container {
+  padding: 48px 24px ;
+}
+.text {
+  padding-bottom: 24px;
+}
+
+
+.add-new-column {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.input-field {
+  
+  background-color: transparent !important;
+
+  margin-right: 24px;
+  font-size: 14px;
+  border: 2px solid  #f7345e !important;
+
+}
+button {
+  flex-shrink: 0;
+  border-left: 0 !important;
+  padding: 15px 16px !important;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 768px) {
+  .add-new-column {
+    max-width: 40%;
+  }
+}

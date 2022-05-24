@@ -1,0 +1,18 @@
+.text-field {
+  background-color: rgb(13, 17, 23);
+  border: 0;
+  color:  rgb(201, 209, 217);
+  border: 1px solid rgb(48, 54, 61);
+  box-shadow: none;
+  margin: 0;
+  width: 100%;  
+  padding: 16px;
+  outline: none;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+.text-field:focus, .text-field:hover {
+
+  outline: none;
+}
