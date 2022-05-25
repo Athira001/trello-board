@@ -51,6 +51,7 @@ export const Card = ({
               onChange={(e) => setValue(e.target.value)}
               id="project-note"
               placeholder="Enter a note"
+              value={value}
             />
             <div className="config-button-wrapper">
               <button className="config-button" type="submit">

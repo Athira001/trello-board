@@ -16,8 +16,6 @@ export const Board = () => {
     if (!value) return;
     const updateCard = { ...card, ...{ [value]: [] } };
     setCard(updateCard);
-    const inputField = document.getElementById("card");
-    inputField.value = "";
     setValue("");
   };
 
@@ -30,8 +28,6 @@ export const Board = () => {
     if (!value) return;
     const updateCard = { ...card, ...card[cardName].push(value) };
     setCard(updateCard);
-    const inputField = document.getElementById("project-note");
-    inputField.value = "";
   };
 
   const removeNote = (index, name) => {
@@ -58,6 +54,7 @@ export const Board = () => {
     updateCard[cardName].splice(index, index + 1, value);
     setCard(updateCard);
   };
+
 
   return (
     <div className="board-container">

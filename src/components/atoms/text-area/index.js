@@ -1,7 +1,7 @@
 import React from "react";
  import "./style.css";
 
-export const TextAreaField = ({ name, rows, onChange, placeholder="Placeholder text", id=""})=> {
+export const TextAreaField = ({ name, rows, onChange, placeholder="Placeholder text", id="", value=""})=> {
 
   return(
     <textarea
@@ -11,7 +11,7 @@ export const TextAreaField = ({ name, rows, onChange, placeholder="Placeholder t
     placeholder={placeholder}
     onChange={(e) => onChange(e, name)}
     id={id}
-
+    value={value}
   />
   );
 }
